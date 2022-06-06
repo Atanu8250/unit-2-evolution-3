@@ -1,0 +1,94 @@
+/* Fill CSS here */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body>h1 {
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: #0070ef;
+    margin: 20px auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body>div {
+    padding: 30px 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 23%;
+    height: 550px;
+    padding: 15px;
+    font-size: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 5px;
+}
+
+input,
+select {
+    height: 25px;
+    width: 90%;
+    margin-top: -15px;
+}
+
+form>input:last-child {
+    height: 35px;
+    border-radius: 20px;
+    margin: 20px 0px;
+    border: 1px solid #2b619e;
+    color: white;
+    background-color: #2b619e;
+    font-size: larger;
+    cursor: pointer;
+}
+
+form>input:last-child:hover {
+    color: #2b619e;
+    background-color: aliceblue;
+    border: transparent;
+}
+
+/* ********************************************************* */
+
+table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 70%;
+    border: transparent;
+    text-align: center;
+}
+
+table tr:nth-child(even) {
+    background-color: #8caacf;
+}
+
+table tr:hover {
+    background-color: #ddd;
+}
+
+/* thead {
+    background-color: #2b619e;
+    color: white;
+    height: 50px;
+} */
+table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #0468aa;
+    color: white;
+    text-align: center;
+}
+
+table td,
+table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
